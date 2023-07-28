@@ -1,16 +1,16 @@
 ---
 layout: home
-title: CS6.401 Software Engineering
+title: CS3.301 Operating Systems and Networks
 nav_exclude: true
 permalink: index.html
 seo:
   type: Course
-  name: Just the Class
+  name: Operating Systems and Networks
 ---
 
-# Software Engineering
+# Operating Systems and Networks
 
-Welcome to the course website of CS6.401 Software Engineering. The details of syllabus, course plan, examinations can be found in the home page. Further details regarding the course can be found below:
+Welcome to the course website of CS3.301 Operating Systems and Networks. The details of syllabus, course plan, examinations can be found in the home page. Further details regarding the course can be found below:
 
 - a [course calendar with materials](calendar.md),
 - a [staff](staff.md) page,

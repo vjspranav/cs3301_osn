@@ -3,7 +3,7 @@ layout: page
 title: Home
 nav_order: 1
 description: >-
-    This is the course website of CS6.401 Software Engineering Course, an elective course offered by Software Engineering Research Center, IIIT Hyderabad, India.
+    This is the course website of CS3.301 Operating Systems and Networks, a core course offered to undergraduate students of IIIT Hyderabad, India.
 
 ---
 
@@ -20,16 +20,16 @@ description: >-
 
 ## About
 
-This course will provide an overview of the principles and foundations of modern software engineering techniques (primarily design based). Topics include software subsystem modelling, refactoring, design patterns and software architecture with a focus on application of these concepts to concrete software problems. Credit where its due, the course structure was designed by [Dr. Raghu Reddy](https://faculty.iiit.ac.in/~raghu.reddy/Home.html).
+This course will provide an overview of the principles and foundations of modern operating systems and networking principles. The course is structured into three parts where each part focusses on different aspects of the operating systems as well as the networking. 
 
 
 ## Lecture hours
 
-The lectures will be in-person and will held on every [Monday and Thursday 2:00 PM to 3:30 PM](schedule.md) in Room no: SH2 (Vindhya). The lecture materials (slides, lecture notes if any and links to supporting resources) can be accessed [here](lectures.md).
+The lectures will be in-person and will held on every [Monday and Thursday 10:00 AM to 11:30 AM](schedule.md) in Room no: SH2 (Vindhya). The lecture materials (slides, lecture notes if any and links to supporting resources) can be accessed [here](lectures.md).
 
 ## Office Hours
 
-Every [Friday 11:00 AM to 12:00 PM](schedule.md). Apart from this if more meetings or help is required, feel free to drop in an email to one of the [teaching assistants](https://karthikv1392.github.io/cs6401_se/staff/)
+Every [Friday 11:00 AM to 12:00 PM](schedule.md). Apart from this if more meetings or help is required, feel free to drop in an email to one of the [teaching assistants](https://karthikv1392.github.io/cse3301_osn/staff/)
 
 ## Resources
 
