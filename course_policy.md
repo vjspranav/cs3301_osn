@@ -11,7 +11,7 @@ The detailed policy of the course along with the mark distribution is listed her
 
 ## Teaching and Learning Methodology
 
-This course is designed in such a manner to help learners get the essence of principles behind good software deign. To this end, the course will follow a problem based learning methodology. Learners will be taught concepts by making them work on real-life problems. This will promote deeper engagement, deeper understanding and resembles the true career situation.
+This course is designed in such a manner to help learners get the essence of principles behind the basic foundations of modern operating systems and networks. To this end, the course will follow a problem based learning methodology. Learners will be taught concepts of operating systems and networks by making them work on light weight operating system (MIT Xv6) as well as by providing them with concrete problems that captures the essence of the concepts taught during the lectures. Morover, the tutorials will be done through flipped classroom mechanism where the focus of tutorials will be to explain concepts through examples. We believe that this will promote deeper engagement and understanding.
 
 ## Zero Tolerance on Plagiarism
 
@@ -19,7 +19,9 @@ This course requires student to submit assignments, participate in in-class acti
 
 ## Use of AI tools
 
-Students are free to use different AI tools like ChatGPT, Co-pilot, etc. for the course assignments/projects. However, please do mention what tools and how they have been used in the submission report. Remember the different demos given in the class on how sometimes these tools can mislead or provide wrong solutions. Its important to know the concept before using the tools. Tools are at the end-of-the day enablers. Today it will be ChatGPT tomorrow it will be something else but the concepts needs to be clear to leverage the different tools. Bottomline, feel free to use different tools but use them wisely!
+Students are free to use different AI tools like ChatGPT, Co-pilot, etc. for the course assignments/projects. 
+
+However, please do mention what tools and how they have been used in the submission report. Remember the different demos given in the class on how sometimes these tools can mislead or provide wrong solutions. Its important to know the concept before using the tools. Tools are at the end-of-the day enablers. Today it will be ChatGPT tomorrow it will be something else but the concepts needs to be clear to leverage the different tools. Bottomline, feel free to use different tools but use them wisely!
 
 ## Extra Days and Soft Deadlines
 
@@ -34,16 +36,17 @@ Students are free to use different AI tools like ChatGPT, Co-pilot, etc. for the
   1. The students can request a re-evaluation of the grade until a week after the particular grade has been posted. After that the student may not discuss prior grades with the instructor.
   2. There will be no make up quiz/activity/exam under any circumstances unless a prior permission is granted.
   3. In case if a student is not able to submit an assignment/project on time, he/she can make use of extra days and soft deadline facility as explained above. No submissions will be entertained post the hard deadline. No e-mails from students regarding assignments extensions will be entertained.
-  4. Although project grades are assigned for the entire team, each individual may be given a higher or lower grade (up to 50%) based on his/her contribution. Individual contribution for each project/assignment will be measured through multiple mechanisms.
+  4. Although course project grades are assigned for the entire team, each individual may be given a higher or lower grade (up to 50%) based on his/her contribution. Individual contribution for each project/assignment will be measured through multiple mechanisms.
 
 ## Grade distribution
 
 | Component    | Weightage |
 | ----------- | ----------- |
-| Final Exam      | 20%      |
-| Mid-term Quiz   | 10%       |
-| Unit Assignments  | 15%       |
-| 3 Unit Projects (3*15) | 45%       |
-| Other In-class activities  | 10%       |
+| Final Exam      | 30%      |
+| Mid-term Quiz   | 15%       |
+| Quizzes  | 10%       |
+| 4 mini projects  | 30%       |
+| Course Project | 10%       |
+| Class activities/bonus | 5%      |
 
 *Note:* The course instructor reserves the right to make minor modifications to the above distribution based on the progress of the courses

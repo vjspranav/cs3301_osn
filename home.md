@@ -35,10 +35,10 @@ Every [Friday 11:00 AM to 12:00 PM](schedule.md). Apart from this if more meetin
 
 ### Useful textbooks:
 
-  1. UML@classroom: An Introduction to Object-Oriented Modeling by Martina Seidl, Marion Scholz, Christian Huemer and Gerti Kappel
-  2. M. Fowler. Refactoring: Improving the design of existing Code, 2000. Addison Wesley. ISBN 0-201-48567-2.
-  3. Design Patterns Elements of Reusable Object Oriented Software by Enrich Gamma, Richard Helm, Ralph Johnson and John Vlissides
-  4.  Software Architecture in Practice (Third/Fourth edition) by Len Bass, Paul Clements and Rick Kazman, Addison-Wesley.
+  1. Operating systems: Three easy pieces by Andrea Arpaci-Dusseau and Remzi Arpaci-Dusseau, 2018 (https://pages.cs.wisc.edu/~remzi/OSTEP/)
+  2. Computer Networks (5th Edition) Andrew S. Tanenbaum, David J. Wetherall, Prentice-Hall, 2013
+  3. Wlliam Stallings, Operating Systems, 9th Edition, Pearson, 2018.
+  4. Tanenbaum, A. S. & Bos, H. (2014), Modern Operating Systems , Pearson , Boston, MA .
 
 ### Useful tools:
 

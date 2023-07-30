@@ -13,9 +13,9 @@
 # you will see them accessed via {{ site.title }}, {{ site.github_repo }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Software Engineering
-tagline: Course website of CS6.401 Software engineering
-description: This is the website of the course offered by software engineering research center, IIIT Hyderabad.
+title: Operating Systems and Networks
+tagline: Course website of CS3.301 Operating Systems and Networks
+description: This is the website of the course offered by IIIT Hyderabad
 author: Karthik Vaidhyanathann
 baseurl: # the subpath of your site, e.g. /blog
 url: 'https://karthikv1392.github.io' # the base hostname & protocol for your site, e.g. http://example.com
