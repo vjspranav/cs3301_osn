@@ -25,7 +25,7 @@ This course will provide an overview of the principles and foundations of modern
 
 ## Lecture hours
 
-The lectures will be in-person and will held on every [Monday and Thursday 10:00 AM to 11:30 AM](schedule.md) in Room no: SH2 (Vindhya). The lecture materials (slides, lecture notes if any and links to supporting resources) can be accessed [here](lectures.md).
+The lectures will be in-person and will held on every [Monday and Thursday 10:00 AM to 11:30 AM](schedule.md) in Room no: H205. The lecture materials (slides, lecture notes if any and links to supporting resources) can be accessed [here](lectures.md).
 
 ## Office Hours
 
@@ -33,7 +33,7 @@ Every [Friday 11:00 AM to 12:00 PM](schedule.md). Apart from this if more meetin
 
 ## Resources
 
-### Useful textbooks:
+### Reference Books:
 
   1. Operating systems: Three easy pieces by Andrea Arpaci-Dusseau and Remzi Arpaci-Dusseau, 2018 (https://pages.cs.wisc.edu/~remzi/OSTEP/)
   2. Computer Networks (5th Edition) Andrew S. Tanenbaum, David J. Wetherall, Prentice-Hall, 2013
@@ -42,10 +42,9 @@ Every [Friday 11:00 AM to 12:00 PM](schedule.md). Apart from this if more meetin
 
 ### Useful tools:
 
-  1. UML - There are plenty of UML tools available such as StarUML, MagicDraw, etc. As far as this course is concerned it would be more than enough to use an open source UML tools such as: [Eclipse Papyrus UML](https://www.eclipse.org/papyrus/) or [Gaphor](https://gaphor.org/). If you prefer text based modelling then [PlantUML](https://plantuml.com/) can be an excellent choice. *Please don't make use of any normal diagramming tools for this course*.
-
-  2. Java IDE - This course will involve development in Java. There are many IDEs for Java available. We suggest to either use [Eclipse](https://www.eclipse.org/) or [Intellij IDEA Community edition](https://www.jetbrains.com/idea/download).
-
+  1. Xv6 - This course will use XV6 operating system to teach the concepts. Instructions on how to set up XV6 and courses can be found [here](https://pdos.csail.mit.edu/6.828/2012/xv6.html)
+  
+  2. C Programming - We will be using C for writing many low level user programs and system calls. Any open source editor like Vim, Atom or even sublime Text would suffice. For any IDE, tools like Visual Studio would serve the purpose and it is highly recommended.
 
 
 ## Assignments and Projects
