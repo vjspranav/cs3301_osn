@@ -42,7 +42,7 @@ Every [Friday 11:00 AM to 12:00 PM](schedule.md). Apart from this if more meetin
 
 ### Useful tools:
 
-  1. Xv6 - This course will use XV6 operating system to teach the concepts. Instructions on how to set up XV6 and courses can be found [here](https://pdos.csail.mit.edu/6.828/2012/xv6.html)
+  1. Xv6 - This course will use XV6 operating system to teach the concepts. Instructions on how to set up XV6 and courses can be found [here](https://pdos.csail.mit.edu/6.828/2022/xv6.html)
   
   2. C Programming - We will be using C for writing many low level user programs and system calls. Any open source editor like Vim, Atom or even sublime Text would suffice. For any IDE, tools like Visual Studio would serve the purpose and it is highly recommended.
 
