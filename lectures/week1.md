@@ -7,5 +7,4 @@ nav_order: 1
 ---
 
 ## Introduction and Course Overview
-
-Course Overview Slides - [Download](https://karthikv1392.github.io/cs3301_se/slides/OSN_L01_intro.pdf)
+Course Overview Slides - [Download](https://karthikv1392.github.io/cs3301_osn/slides/OSN_L01_intro.pdf)
