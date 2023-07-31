@@ -6,4 +6,4 @@ website:
 photo: pranav.png
 ---
 
-I like building softwares
+I am associated with Smart City Research Center
