@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Projects
-permalink: /projects/
+title: Mini Projects
+permalink: /mini-projects/
 has_children: true
 nav_order: 4
 ---
