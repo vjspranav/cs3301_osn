@@ -15,8 +15,7 @@ A system call is a routine that allows a user application to request actions tha
 For this project, follow [this link](https://r.mtdv.me/mp0) to accept the assignment. You should find a list of roll numbers already available as soon as you click on the link, ensure that you select your roll number correctly as that will mapped to your github id throughout the course. 
 You will then be assigned a private repository on GitHub. This is where you will be working on the mini project. All relevant instructions regarding this project can be found below.   
 
-> **Note:** If you are not familiar with git, please go through the [git tutorial](https://rogerdudler.github.io/git-guide/) before proceeding.  
-> **Note:** If you are not familiar with GitHub Classroom, please go through the [GitHub Classroom tutorial](https://www.youtube.com/watch?v=9RfUP_8SE0Q) before proceeding.  
+> **Note:** If you are not familiar with git, please go through the [git tutorial](https://rogerdudler.github.io/git-guide/) before proceeding.
 > **PS:** Your github id does not need to be with your college id, it can be with your personal email id as well.  
 
 ## Instructions
