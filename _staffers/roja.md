@@ -6,4 +6,4 @@ website:
 photo: roja.png
 ---
 
-I like playing video games
+I like chocolates.
