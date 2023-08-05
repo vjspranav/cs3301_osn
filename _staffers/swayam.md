@@ -7,3 +7,7 @@ photo: swayam.png
 ---
 
 Mastering software step by step
+
+TA Hours: 
+- Wednesday: 3:00 PM - 4:00 PM
+- Location: RRC: T-Hub 3rd Floor
