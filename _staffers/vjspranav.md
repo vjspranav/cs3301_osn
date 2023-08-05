@@ -7,3 +7,10 @@ photo: vjspranav.png
 ---
 
 I like building softwares
+
+TA Hours: 
+- Monday: 3:30 PM - 4:30 PM
+- Location: SCRC, Admin Block Ground Floor
+
+
+

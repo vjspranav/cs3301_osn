@@ -7,3 +7,7 @@ photo: ashna.png
 ---
 
 Let's explore software together
+
+TA Hours: 
+- Tuesday: 2:00 PM - 3:00 PM
+- Location: MT NLP, KCIS 2nd Floor
