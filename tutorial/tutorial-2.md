@@ -7,4 +7,4 @@ nav_order: 2
 ---
 
 ## Tutorial - 2 Slides
-[Download]()
+[Download](https://iiitaphyd.sharepoint.com/:b:/s/CS3.301_OSN/EX7ZuJVcaqhFh2IsrWVYnWkBNZGFc_wj-i0ZO14uDhq5eg?e=38eGge)
