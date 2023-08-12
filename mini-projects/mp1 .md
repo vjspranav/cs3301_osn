@@ -7,11 +7,15 @@ nav_order: 1
 ---
 
 # Mini Project 1 : C-Shell
-Before starting, make sure to read this document **completely** including **Instructions, Guidelines, Plagiarism Policy and Submission Guidelines** before asking any doubts as they might already be covered here. Additionally, you are recommended to read these to avoid unnecessary penalties.
+Before starting, make sure to read this document **completely** including **Instructions, Guidelines, Plagiarism Policy and Submission Guidelines described at the end** before asking any doubts as they might already be covered here. Additionally, you are recommended to read these to avoid unnecessary penalties.
+
+## GitHub Classroom
+
+Follow [this link](https://classroom.github.com/a/76mHqLr5) to accept the assignment. You will then be assigned a private repository on GitHub. This is where you will be working on the mini project. All relevant instructions regarding this project can be found below.
 
 ## Instructions
 
-In this Mini Project, you will be building your own shell using C. As the scale of code will be very large, it is ********************necessary to write modular code.  Do NOT write monolithic code.******************** Following is the definition of what modular code should look like : your codebase must be separated in different C files based on the tasks that it is intended to perform. Create header files to include headers from C library. You will be penalized heavily if your code is non modular.
+In this Mini Project, you will be building your own shell using C. As the scale of code will be very large, it is **necessary to write modular code.  Do NOT write monolithic code.** Following is the definition of what modular code should look like : your codebase must be separated in different C files based on the tasks that it is intended to perform. Create header files to include headers from C library. You will be penalized heavily if your code is non modular.
 
 It is highly recommended to start this mini project early to complete it in time as it will be quite intensive. There are 3 parts to this assignment with two deadlines in total (including final deadline). More clearly, you are required to submit your code 2 times in the duration of this assignment with the last deadline being the final submission deadline (Parts A,B,C combined) before getting penalized for submitting after this till the hard deadline which is 1 week after it i.e. 19 Sep 2023
 
@@ -25,9 +29,9 @@ For easier understanding, let’s say Part A is worth 100 points total. If your 
 
 ## Deadlines
 
-******************************Intermediary deadline : 11:59 PM - 25 Aug, 2023******************************
+**Intermediary deadline : 11:59 PM - 25 Aug, 2023**
 
-******************************Final Soft deadline : 11:59 PM - 12 Sep, 2023******************************
+**Final Soft deadline : 11:59 PM - 12 Sep, 2023**
  
 
 ## Part A : Basic System Calls
@@ -61,8 +65,7 @@ Keep in mind the following requirements for input when implementing your shell :
 - Your shell should support a ‘;’ or ‘&’ separated list of commands. You can use '**strtok**' to tokenize the input.
 - Your shell should account for random spaces and tabs when taking input.
 - The “;” command can be used to give multiple commands at the same time. This works similar to how “;” works in Bash.
-- '&' operator runs the command preceding it in the background after printing the process id of the newly created process. **(Refer to Specification x for more details on this)**
-
+- '&' operator runs the command preceding it in the background after printing the process id of the newly created process.
 ```jsx
 ./a.out
 <JohnDoe@SYS:~> vim      &
@@ -110,7 +113,7 @@ ERROR : 'sleeeep' is not a valid command
 <JohnDoe@SYS:~/project>
 ```
 
-************Note :************
+**Note :**
 
 - You can assume that the paths/names will not contain any whitespace characters.
 - DON’T use ‘execvp’ or similar commands for implementing this.
@@ -143,7 +146,7 @@ Handle the following cases also in case of flags :
 - peek -la <path/name>
 - peek -al <path/name>
 
-************Note :************
+**Note :**
 
 - You can assume that the paths/names will not contain any whitespace characters.
 - DON’T use ‘execvp’ or similar commands for implementing this.
@@ -164,11 +167,11 @@ Note :
 - Store the arguments along with the command
 - Do NOT store the pastevents command in pastevents.
 
-**************************pastevents purge**************************
+**pastevents purge**
 
 Clears all the pastevents currently stored. Do not store this command in the pastevents.
 
-******************************pastevents execute \<index>******************************
+**pastevents execute \<index>**
 
 Execute the command at <index> position in pastevents (ordered from most recent to oldest). If it’s the most recent command, don’t store it, otherwise store the command that was executed in pastevents.
 
@@ -207,7 +210,7 @@ peek test
 
 Your shell must be able to execute the other system commands present in Bash as well like emacs, gedit etc. This should be possible in both foreground and background processes.
 
-************************************Foreground Process************************************
+**Foreground Process**
 
 Executing a command in foreground means the shell will wait for that process to complete and regain control afterwards. Control of terminal is handed over to this process for the time being while it is running.
 
@@ -219,7 +222,7 @@ Time taken by the foreground process and the name of the process should be print
 <JohnDoe@SYS:~ sleep : 5s>
 ```
 
-************************************Background Process************************************
+**Background Process**
 
 Any command invoked with "&" is treated as a background command. This implies that
 your shell will spawn that process but doesn’t hand the control of terminal to it. Shell will keep taking other user commands. Whenever a new background process is started, print the PID of the newly created background process on your shell also.
@@ -235,7 +238,7 @@ Sleep exited normally (13054)
 Lorem Ipsum
 ```
 
-************Note :************
+**Note :**
 
 - No need to handle background processes for any commands implemented by yourself (warp, peek, pastevents etc.)
 - You should be able to run multiple background processes.
@@ -284,18 +287,18 @@ The “+” signifies whether it is a foreground or background process.
 
 Note that by files, the text here refers to non-directory files.
 
-******************Flags :******************
+**Flags :**
 
 - -d : Only look for directories (ignore files even if name matches)
 - -f : Only look for files (ignore directories even if name matches)
 - -e : This flag is effective only when a single file or a single directory with the name is found. If only one file (and no directories) is found, then print it’s output. If only one directory (and no files) is found, then change current working directory to it. Otherwise, the flag has no effect. This flag should work with -d and -f flags.
 If -e flag is enabled but the directory does not have access permission (execute) or file does not have read permission, then output **“Missing permissions for task!”**
 
-************************Argument 1 :************************
+**Argument 1 :**
 
 The target that the user is looking for. A name **without whitespace characters** will be given here. You have to look for a file/folder with the exact name as this.
 
-**********************************************Argument 2 :**********************************************
+**Argument 2 :**
 
 The path to target directory where the search will be performed (this path can have symbols like . and ~ as explained in the peek command). If this argument is missing, target directory is the current working directory. The target directory’s tree must be searched (and not just the directory).
 
@@ -371,7 +374,7 @@ dolor sit amet
 
 Pipes are used to pass information between commands. It takes the output from command on left and passes it as standard input to the command on right. Your shell should support any number of pipes.
 
-************Note :************
+**Note :**
 
 - Return error “Invalid use of pipe”, if there is nothing to the left or to the right of a pipe (”|”).
 - Run all the commands sequentially from left to right if pipes are present.
@@ -415,7 +418,7 @@ Format of an entry should be :
 
 ### Specification 13 : Signals [12]
 
-************************ping <pid> <signal_number>************************
+**ping <pid> <signal_number>**
 
 ping command is used to send signals to processes. Take the pid of a process and send a signal to it which corresponds to the signal number (which is provided as an argument). Print error “No such process found”, if process with given pid does not exist. You should take signal number’s modulo with 32 before checking which signal it belongs to (assuming x86/ARM machine). Check man page for signal for an exhaustive list of all signals present.
 
@@ -441,17 +444,17 @@ Following 3 commands are direct keyboard input where Ctrl is Control key on keyb
 
 Interrupt any currently running foreground process by sending it the SIGINT signal. It has no effect if no foreground process is currently running.
 
-****************Ctrl - D****************
+**Ctrl - D**
 
 Log out of your shell (after killing all processes) while having no effect on the actual terminal.
 
-********Ctrl - Z********
+**Ctrl - Z**
 
 Push the (if any) running foreground process to the background and change it’s state from “Running” to “Stopped”. It has no effect on the shell if no foreground process is running.
 
 ### Specification 14 : fg and bg [8]
 
-******fg <pid>******
+**fg <pid>**
 
 Brings the running or stopped background process with corresponding pid to foreground, handing it the control of terminal. Print “No such process found”, if no process with given pid exists.
 
@@ -462,7 +465,7 @@ Brings the running or stopped background process with corresponding pid to foreg
 # brings gedit [620] to foreground and change it's state to Running
 ```
 
-****************bg <pid>****************
+**bg <pid>**
 
 Changes the state of a stopped background process to running (in the background). If a process with given pid does not exist, print “No such process found” to the terminal.
 
@@ -516,7 +519,7 @@ Libraries allowed are:
 
 along with general libraries such as <stdlib.h>, <string.h>, <stdio.h> and so on.
 
-************************iMan <command_name>************************
+**iMan <command_name>**
 
 <command_name> is the name of the man page that you want to fetch.
 
@@ -585,7 +588,7 @@ Takeaway : Do not copy, it won’t get you marks but there is a high chance for 
 
 # Submission Guidelines
 
-1. Make a ******************makefile****************** for compiling all your code (with appropriate flags and linker options). This makefile is expected to generate an **executable “a.out” on running the “make”** command. Executing a.out should start your shell.
+1. Make a **makefile** for compiling all your code (with appropriate flags and linker options). This makefile is expected to generate an **executable “a.out” on running the “make”** command. Executing a.out should start your shell.
 2. Include a [README.md](http://README.md) describing which file corresponds to what part and any assumptions that you made. Any assumptions not written in README.md may not be considered during manual evaluation.
 3. Following is the expected directory structure for your submission :
 
