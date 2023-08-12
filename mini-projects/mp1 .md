@@ -66,17 +66,21 @@ Keep in mind the following requirements for input when implementing your shell :
 - Your shell should account for random spaces and tabs when taking input.
 - The “;” command can be used to give multiple commands at the same time. This works similar to how “;” works in Bash.
 - '&' operator runs the command preceding it in the background after printing the process id of the newly created process.
+  
 ```jsx
 ./a.out
 <JohnDoe@SYS:~> vim      &
 [1] 35006
+
 <JohnDoe@SYS:~> sleep 5 &     echo     "Lorem ipsum"
 [2] 35036
 Lorem ipsum
 # sleep runs in the background while echo runs in the foreground
+
 <JohnDoe@SYS:~> warp test ; pwd
 sleep with pid 35036 exited normally # after 5 seconds
 ~/test
+
 <JohnDoe@SYS:~/test> 
 ```
 
@@ -171,7 +175,7 @@ Note :
 
 Clears all the pastevents currently stored. Do not store this command in the pastevents.
 
-**pastevents execute \<index>**
+**pastevents execute \<index\>**
 
 Execute the command at <index> position in pastevents (ordered from most recent to oldest). If it’s the most recent command, don’t store it, otherwise store the command that was executed in pastevents.
 
@@ -330,7 +334,7 @@ Print “**No match found!**” in case no matching files/directories is found. 
 
 A call to this command will always be in the format :
 
-**seek <flags> <search> <target_directory>**
+**seek \<flags\> \<search\> \<target_directory\>**
 
 ## Part B : Processes, Files and Misc.
 
@@ -418,7 +422,7 @@ Format of an entry should be :
 
 ### Specification 13 : Signals [12]
 
-**ping <pid> <signal_number>**
+**ping \<pid\> \<signal_number\>**
 
 ping command is used to send signals to processes. Take the pid of a process and send a signal to it which corresponds to the signal number (which is provided as an argument). Print error “No such process found”, if process with given pid does not exist. You should take signal number’s modulo with 32 before checking which signal it belongs to (assuming x86/ARM machine). Check man page for signal for an exhaustive list of all signals present.
 
@@ -454,7 +458,7 @@ Push the (if any) running foreground process to the background and change it’s
 
 ### Specification 14 : fg and bg [8]
 
-**fg <pid>**
+**fg \<pid\>**
 
 Brings the running or stopped background process with corresponding pid to foreground, handing it the control of terminal. Print “No such process found”, if no process with given pid exists.
 
@@ -465,7 +469,7 @@ Brings the running or stopped background process with corresponding pid to foreg
 # brings gedit [620] to foreground and change it's state to Running
 ```
 
-**bg <pid>**
+**bg \<pid\>**
 
 Changes the state of a stopped background process to running (in the background). If a process with given pid does not exist, print “No such process found” to the terminal.
 
@@ -575,7 +579,7 @@ If there are more than 1 argument, iMan considers only the first argument and ig
 13. Use signal handlers to handle signals when switching between foreground and background or when a background process exits.
 14. Your code MUST compile for any marks to be given. Use version control to save working versions of code before messing around with it and write modular code.
 15. Segmentation faults and other crashes while your shell is running will be penalized.
-16. The symbols <, >, >>, &, |, ; , - would always correspond to their special meaning and would not appear otherwise, such as in inputs to echo etc.
+16. The symbols " <, >, >>, &, |, ; , - " would always correspond to their special meaning and would not appear otherwise, such as in inputs to echo etc.
 17. You are expected to implement everything except Specification 6 without using execvp.
 
 # Plagiarism Policy
@@ -597,6 +601,7 @@ Takeaway : Do not copy, it won’t get you marks but there is a high chance for 
 ├── README.md
 ├── makefile
 └── Other files and directories
+
 ```
 
 4. Submit modular code only.
