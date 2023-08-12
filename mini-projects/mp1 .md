@@ -513,19 +513,19 @@ You must implement it in the following manner:
 
 Libraries allowed are:
 
-1. <unistd.h>
-2. <netdb.h>
-3. <arpa/inet.h>
+1. \<unistd.h\>
+2. \<netdb.h\>
+3. \<arpa/inet.h\>
 
 along with general libraries such as <stdlib.h>, <string.h>, <stdio.h> and so on.
 
-**iMan <command_name>**
+**iMan \<command_name\>**
 
-<command_name> is the name of the man page that you want to fetch.
+\<command_name\> is the name of the man page that you want to fetch.
 
 This should fetch the man page (atleast the name, synopsis and description of the command) for the given command from http://man.he.net/. Print an error statement if the page does not exist.
 
-```c
+```
 <JohnDoe@SYS:~> iMan sleep
 NAME
        sleep - delay for a specified amount of time
