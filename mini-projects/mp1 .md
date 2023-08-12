@@ -380,7 +380,7 @@ Pipes are used to pass information between commands. It takes the output from co
 
 **Note :**
 
-- Return error “Invalid use of pipe”, if there is nothing to the left or to the right of a pipe (”\|”\).
+- Return error “Invalid use of pipe”, if there is nothing to the left or to the right of a pipe.
 - Run all the commands sequentially from left to right if pipes are present.
 
 ```jsx
@@ -579,7 +579,7 @@ If there are more than 1 argument, iMan considers only the first argument and ig
 13. Use signal handlers to handle signals when switching between foreground and background or when a background process exits.
 14. Your code MUST compile for any marks to be given. Use version control to save working versions of code before messing around with it and write modular code.
 15. Segmentation faults and other crashes while your shell is running will be penalized.
-16. The symbols "\<, >, >>, &, |, ; , -\" would always correspond to their special meaning and would not appear otherwise, such as in inputs to echo etc.
+16. The symbols "\<, >, >>, &, ; , -\" would always correspond to their special meaning and would not appear otherwise, such as in inputs to echo etc.
 17. You are expected to implement everything except Specification 6 without using execvp.
 
 # Plagiarism Policy
