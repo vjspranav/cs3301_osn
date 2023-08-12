@@ -603,5 +603,3 @@ Takeaway : Do not copy, it won’t get you marks but there is a high chance for 
 └── Other files and directories
 
 ```
-
-4. Submit modular code only.
