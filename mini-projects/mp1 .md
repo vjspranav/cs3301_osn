@@ -6,7 +6,7 @@ parent: Mini Projects
 nav_order: 1
 ---
 
-# Mini Project 1 : C-Shell
+# Mini Project 1 : Building your own shell
 Before starting, make sure to read this document **completely** including **Instructions, Guidelines, Plagiarism Policy and Submission Guidelines described at the end** before asking any doubts as they might already be covered here. Additionally, you are recommended to read these to avoid unnecessary penalties.
 
 ## GitHub Classroom
