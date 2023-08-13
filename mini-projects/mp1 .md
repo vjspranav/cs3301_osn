@@ -567,7 +567,7 @@ If there are more than 1 argument, iMan considers only the first argument and ig
 1. The submission must be done in C. No other languages are allowed.
 2. All C standard library functions are allowed unless explicitly mentioned. You can find the list of header files in C standard library here : https://en.cppreference.com/w/c/header
 3. Third party libraries are not allowed.
-4. If there is an error while running a command, it **should not cause the shell to crash**. Handle errors as they are mentioned in the Mini Project document. If an **error is not mentioned here, you should still handle it appropriately**. Look at <perror.h> for handling error routines.
+4. If there is an error while running a command, it **should not cause the shell to crash**. Handle errors as they are mentioned in the Mini Project document. If an **error is not mentioned here, you should still handle it appropriately**. Look at `<perror.h>` for handling error routines.
 5. Do error handling for both user defined and system commands.
 6. Use specific color coding for error messages and prompts (You can choose the colors)
 7. As mentioned in Input Requirements, there can be multiple random tabs and spaces, you should handle these (and still run the entered command).
