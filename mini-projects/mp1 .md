@@ -504,9 +504,6 @@ The command prints the Process-ID of the most recently created process on the sy
 
 iMan fetches man pages from the internet using sockets and outputs it to the terminal (stdout). In this case, you are required to use the website : http://man.he.net/ to get the man pages.
 
-You do not need to handle “man page not found” error separately and you can print the html tags as well if there are any.
-Do not print the header received during the GET request. (Check example given below for exact output).
-
 You must implement it in the following manner:
 
 1. Do DNS resolution for man.he.net
@@ -515,19 +512,19 @@ You must implement it in the following manner:
 4. Read the body of the website
 5. Close socket
 
-Libraries allowed are:
+Libraries that could be used are:
 
 1. \<unistd.h\>
 2. \<netdb.h\>
 3. \<arpa/inet.h\>
 
-along with general libraries such as <stdlib.h>, <string.h>, <stdio.h> and so on.
+along with general libraries such as \<stdlib.h\>, \<string.h\>, \<stdio.h\> and so on. Relevent functions will be discussed in the tutorial.
 
 **iMan \<command_name\>**
 
 \<command_name\> is the name of the man page that you want to fetch.
 
-This should fetch the man page (atleast the name, synopsis and description of the command) for the given command from http://man.he.net/. Print an error statement if the page does not exist.
+This should fetch the man page (_atleast_ the name, synopsis and description of the command) for the given command from http://man.he.net/. Print an error statement if the page does not exist.
 
 ```
 <JohnDoe@SYS:~> iMan sleep
@@ -555,12 +552,6 @@ ERROR
 ```
 
 Outputs given above may be formatted in any manner as long as the information by the website is unaltered.
-
-If there are more than 1 argument, iMan considers only the first argument and ignores the rest. For example :
-
-```jsx
-"iMan sleep" is the same as "iMan sleep extra"
-```
 
 # Useful commands/structs/files:
 
