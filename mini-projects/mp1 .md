@@ -562,6 +562,15 @@ If there are more than 1 argument, iMan considers only the first argument and ig
 "iMan sleep" is the same as "iMan sleep extra"
 ```
 
+# Useful commands/structs/files:
+
+uname, hostname, signal, waitpid, getpid, kill, execvp, strtok, fork, getopt, readdir, opendir, readdir, closedir, getcwd, sleep,
+struct stat, struct dirent, `/proc/interrupts`, fopen, chdir, getopt, pwd.h (to obtain username), `/proc/loadavg`.
+
+Also check out termios.h functions like tcgetattr(), tcsetattr() for terminal setting (raw mode/ cooked mode).
+
+Refer to [man](https://man7.org/linux/man-pages/dir_all_by_section.html) pages on internet to learn of all possible invocations/variants of these general commands. Pay specific attention to the various data types used within these commands and explore the various header files needed to use these commands.
+
 # Guidelines
 
 1. The submission must be done in C. No other languages are allowed.
