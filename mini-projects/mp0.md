@@ -28,7 +28,7 @@ This Mini Project works as a basic introduction to system calls and to give you 
 
 _Given a file, you need to reverse the contents of the file provided to you and store the result in a new file in directory named "Copies"._
 
-Create a directory named "Copies" (if not already present), in the current directory with read, write and execute permissions. The new file created should be named "`<filename>`_reverse" and must have the same permissions as the original file.
+Create a directory named "Copies" (if not already present), in the current directory with 0755 permissions. The new file created should be named "`<filename>`_reverse" and must have the same permissions as the original file.
 
 **Note** that the file copied can be very LARGE (greater than RAM size). Your program should work in a reasonable amount of time (a minute at most) even for such large files.
 
