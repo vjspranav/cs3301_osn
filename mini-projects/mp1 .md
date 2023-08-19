@@ -162,13 +162,13 @@ Handle the following cases also in case of flags :
 
 **pastevents**
 
-Implement a ‘pastevents’ command which is similar to the actual history command in bash. The default number of commands it should store and output is 15 (max). You must overwrite the oldest commands if more than the set number of commands are entered. You should track the commands across all sessions and not just one.
+Implement a ‘pastevents’ command which is similar to the actual history command in bash. Your implementation should store the 15 most recent command statements given as input to the shell based on some constraints. You must overwrite the oldest commands if more than the set number (15) of commands are entered. `pastevents` is persistent over different shell runs, i.e., the most recent command statements should be stored when the shell is exited and be retrieved later on when the shell is opened.
 
 Note :
 
-- DO NOT store a command in pastevents if it is the exactly same as the previously entered command.
+- DO NOT store a command in pastevents if it is the exactly same as the previously entered command. (You may use direct string comparison, `strcmp()`, for this)
 - Store the arguments along with the command
-- Store all commands (Refer to questions 51 and 68 in the doubts document for further clarification)
+- (_Edit_) Store all statements except commands that include pastevents or pastevents purge.
 
 **pastevents purge**
 
@@ -176,7 +176,7 @@ Clears all the pastevents currently stored. Do not store this command in the pas
 
 **pastevents execute \<index\>**
 
-Execute the command at <index> position in pastevents (ordered from most recent to oldest). If it’s the most recent command, don’t store it, otherwise store the command that was executed in pastevents.
+Execute the command at <index> position in pastevents (ordered from most recent to oldest). Do not store statements containing `pastevents execute` if it matches the most recent command.
 
 ```jsx
 <JohnDoe@SYS:~> peek test
@@ -208,6 +208,53 @@ peek test
 <JohnDoe@SYS:~> pastevents
 <JohnDoe@SYS:~>
 ```
+
+(_Edit_) 
+```jsx
+<JohnDoe@SYS:~> pastevents # Assuming this is the first time the shell is run
+<JohnDoe@SYS:~> sleep 1
+<JohnDoe@SYS:~> sleep 2
+<JohnDoe@SYS:~> pastevents
+sleep 1
+sleep 2
+<JohnDoe@SYS:~> sleep 2
+sleep 1
+sleep 2  # sleep 2 is not repeated
+<JohnDoe@SYS:~> sleep 1; pastevents
+sleep 1
+sleep 2
+<JohnDoe@SYS:~> pastevents # Notice how 'sleep 1; pastevents' is not considered as it contains the pastevents command
+sleep 1
+sleep 2
+
+*** Exit Shell ***
+
+<JohnDoe@SYS:~> sleep 2
+<JohnDoe@SYS:~> pastevents
+sleep 1
+sleep 2
+exit
+sleep 2
+<JohnDoe@SYS:~> sleep 3; pastevents execute 1
+<JohnDoe@SYS:~> sleep 3; sleep 2
+<JohnDoe@SYS:~> sleep 3
+<JohnDoe@SYS:~> sleep 3; sleep 2
+<JohnDoe@SYS:~> pastevents
+sleep 1
+sleep 2
+exit
+sleep 2
+sleep 3; sleep 2 # Only output once as 'sleep 3; pastevents execute 1' is stored as 'sleep 3; sleep 2'
+sleep 3
+sleep 3; sleep 2
+<JohnDoe@SYS:~> pastevents purge; sleep 1
+<JohnDoe@SYS:~> pastevents # No output as the previous command contained pastevents purge
+<JohnDoe@SYS:~> sleep 1
+<JohnDoe@SYS:~> pastevents
+sleep 1
+```
+
+**NOTE** - handling omissions in the case of background processes is left to student. However, ensure that you write the assumptions made in the README and that there is no infinite recursion (pastevents execute calling pastevents execute calling pastevents execute...)
 
 ### Specification 6 : System commands [12]
 
