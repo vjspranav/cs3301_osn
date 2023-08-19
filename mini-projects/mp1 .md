@@ -167,9 +167,8 @@ Implement a ‘pastevents’ command which is similar to the actual history comm
 Note :
 
 - DO NOT store a command in pastevents if it is the exactly same as the previously entered command.
-- Store only valid commands (do not store erroneous commands).
 - Store the arguments along with the command
-- Do NOT store the pastevents command in pastevents.
+- Store all commands (Refer to questions 51 and 68 in the doubts document for further clarification)
 
 **pastevents purge**
 
