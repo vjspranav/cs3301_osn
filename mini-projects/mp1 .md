@@ -329,7 +329,7 @@ Process states :
 - S/S+ : Sleeping in an interruptible wait
 - Z : Zombie
 
-The “+” signifies whether it is a foreground or background process.
+The “+” signifies whether it is a foreground or background process, i.e., add "+" only if it is a _foreground_ process.
 
 ### Specification 8 : seek [8]
 
