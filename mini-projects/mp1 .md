@@ -254,7 +254,7 @@ sleep 3; sleep 2
 sleep 1
 ```
 
-**NOTE** - handling omissions in the case of background processes is left to student. However, ensure that you write the assumptions made in the README and that there is no infinite recursion (pastevents execute calling pastevents execute calling pastevents execute...)
+**NOTE** - handling omissions in the case of background processes is left to student (as you need not handle background execution for user defined commands). However, ensure that you write the assumptions made in the README and that there is no infinite recursion (pastevents execute calling pastevents execute calling pastevents execute...)
 
 ### Specification 6 : System commands [12]
 
@@ -290,7 +290,7 @@ Lorem Ipsum
 
 **Note :**
 
-- No need to handle background processes for any commands implemented by yourself (warp, peek, pastevents etc.)
+- **No need** to handle background processes for any commands implemented by yourself (warp, peek, pastevents etc.)
 - You should be able to run multiple background processes.
 - Whenever background process finishes, display message to user (after user enters any command, display all ended between last command run and this).
 - Print process name along with pid when background process ends. Also mention if the process ended normally or abnormally.
@@ -388,7 +388,7 @@ Note : Please read specification 9-11 together before attempting as one’s impl
 
 ### Specification 9 : I/O Redirection [8]
 
-I/O Redirection is when you change the default input/output (which is the terminal) to another file. This file can be used to read input into a program or to capture the output of a program. 
+I/O Redirection is when you change the default input/output (which is the terminal) to another file. This file can be used to read input into a program or to capture the output of a program. This specification should work for all commands - user defined as well as system commands defined in bash.
 Your shell should support >, <, >> (< should work with both > and >>).
 
 - \> : Outputs to the filename following “>”.
@@ -422,7 +422,7 @@ dolor sit amet
 
 ### Specification 10 : Pipes [8]
 
-Pipes are used to pass information between commands. It takes the output from command on left and passes it as standard input to the command on right. Your shell should support any number of pipes.
+Pipes are used to pass information between commands. It takes the output from command on left and passes it as standard input to the command on right. Your shell should support any number of pipes. This specification should work for all commands - user defined as well as system commands defined in bash.
 
 **Note :**
 
@@ -438,7 +438,7 @@ Pipes are used to pass information between commands. It takes the output from co
 
 ### Specification 11 : Redirection along with pipes [5]
 
-This specification requires you to be able to run I/O redirection along with pipes. It should support any number of pipes (but not multiple inputs and outputs from I/O redirection). In short, you are required to make sure that Specification 8 and Specification 9 work when given as input together.
+This specification requires you to be able to run I/O redirection along with pipes. It should support any number of pipes (but not multiple inputs and outputs from I/O redirection). In short, you are required to make sure that Specification 8 and Specification 9 work when given as input together. 
 
 ```jsx
 <JohnDoe@SYS:~> cat a.txt
