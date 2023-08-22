@@ -25,7 +25,7 @@ However, please do mention what tools and how they have been used in the submiss
 
 ## Extra Days and Soft Deadlines
 
-  1. Each student will have 5 extra days (in total) which they can use at their discretion throughout the course. Extra days will allow the student to submit assignments post the deadline without incurring any penalty.
+  1. Each student will have 7 extra days (in total - 2 for mid submissions of projects and 5 for final project submissions) which they can use at their discretion throughout the course. Extra days will allow the student to submit assignments post the deadline without incurring any penalty.
 
   2. Every project will have a soft deadline followed by a hard deadline after 7 days. If the student submits an assignment/project after the soft deadline, he/she will be penalized for every additional day until the hard deadline (if they have exhausted their extra days quota). For example, lets assume that the soft deadline is Feb 3 2023. This implies that the hard deadline will be Feb 10, 2023. The student in this case will be allowed to submit until Feb 10 2023. Assuming that the student has his/her full quota of extra days, they can delay submissions until Feb 8 2023 after which the submission will be penalized for each additional day.
 
