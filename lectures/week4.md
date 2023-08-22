@@ -12,4 +12,4 @@ Networking layers and sockets - [Download](https://karthikv1392.github.io/cs3301
 
 ## Suggested Reading
 
-1. [OSTEP Chapter 8: Scheduling - Introduction](https://pages.cs.wisc.edu/~remzi/OSTEP/cpu-sched-mlfq.pdf)
+1. Chapter 1, 2 in Computer Networking: A Top Down Approach by Kurose and Ross
