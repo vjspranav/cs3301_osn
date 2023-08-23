@@ -162,7 +162,7 @@ Handle the following cases also in case of flags :
 
 **pastevents**
 
-Implement a ‘pastevents’ command which is similar to the actual history command in bash. Your implementation should store the 15 most recent command statements given as input to the shell based on some constraints. You must overwrite the oldest commands if more than the set number (15) of commands are entered. `pastevents` is persistent over different shell runs, i.e., the most recent command statements should be stored when the shell is exited and be retrieved later on when the shell is opened.
+Implement a ‘pastevents’ command which is similar to the actual history command in bash. Your implementation should store (and output) the 15 most recent command statements given as input to the shell based on some constraints. You must overwrite the oldest commands if more than the set number (15) of commands are entered. `pastevents` is persistent over different shell runs, i.e., the most recent command statements should be stored when the shell is exited and be retrieved later on when the shell is opened.
 
 Note :
 
