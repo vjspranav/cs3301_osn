@@ -544,6 +544,12 @@ The command prints the Process-ID of the most recently created process on the sy
 11813 # key 'x' is pressed at this moment terminating the printing
 ```
 
+The starter code for this specification can be found [here](https://gist.github.com/schlechter-afk/e4f6df2868ed0ba1d780747535c54d4e).
+Please also note a few things:
+1. By default , I/O of the teminal is line-buffered, i.e, input is guaranteed to be flushed/sent to your program once a line is terminated.
+2. termios.h, a POSIX-standard header file, allows you to get the tty into raw mode whereas it is generally in cooked mode. Reading it's documentation/man pages is suggested.
+3. Getting the terminal into raw mode allows it to be such that at soon as a key is pressed, the input signal is sent to your program, along with a lot of other default features like echoing being disabled.
+
 ## Part C : Networking
 
 ### Specification 16 : iMan [12]
