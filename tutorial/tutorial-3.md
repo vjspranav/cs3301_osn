@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Tutorial 3 - Will be updated by the respective TA soon
+title: Tutorial 3 - Introduction to xv6
 permalink: /tutorial/tutorial-3
 parent: Tutorials
 nav_order: 3
