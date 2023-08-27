@@ -7,4 +7,4 @@ nav_order: 3
 ---
 
 ## Tutorial - 3 Slides
-Will be updated by the respective TA soon
+[Download](https://iiitaphyd.sharepoint.com/:b:/s/CS3.301_OSN/EZZAZ7xNdDBHgqol8f6eNVkBx_co3MeehPEgGIE77D9gvQ?e=xWZ3c0)
