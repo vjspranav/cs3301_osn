@@ -3,7 +3,7 @@ layout: page
 title: Week 6 - Memory Virutalization techniques
 permalink: /lectures/week-6
 parent: Lectures
-nav_order: 5
+nav_order: 6
 ---
 
 ## Dynamic relocation and Segmentation
