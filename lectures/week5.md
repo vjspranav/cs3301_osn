@@ -12,5 +12,5 @@ Memory Virtualization - [Download](https://karthikv1392.github.io/cs3301_osn/sli
 
 ## Suggested Reading 
 
-1. Chapter 12 [OSTEP Chapter 12: The Abstration and Address Space](https://pages.cs.wisc.edu/~remzi/OSTEP/vm-intro.pdf)
-2. Chapter 13 [OSTEP Chapter 13: Interlude - The Memory API](https://pages.cs.wisc.edu/~remzi/OSTEP/vm-api.pdf)
+1. Chapter 12 [OSTEP Chapter 13: The Abstration and Address Space](https://pages.cs.wisc.edu/~remzi/OSTEP/vm-intro.pdf)
+2. Chapter 13 [OSTEP Chapter 14: Interlude - The Memory API](https://pages.cs.wisc.edu/~remzi/OSTEP/vm-api.pdf)
