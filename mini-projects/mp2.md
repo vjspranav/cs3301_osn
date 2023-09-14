@@ -1,3 +1,11 @@
+---
+layout: page
+title: Mini Project 2
+permalink: /mini-projects/mp2
+parent: Mini Projects
+nav_order: 2
+---
+
 # Mini Project 2 : Introduction to XV-6
 
 ## Operating Systems and Networks, Monsoon 2023
