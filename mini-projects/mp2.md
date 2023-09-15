@@ -8,7 +8,7 @@ nav_order: 2
 
 # Mini Project 2 : Introduction to XV-6
 
-## Operating Systems and Networks, Monsoon 2023
+<!-- ## Operating Systems and Networks, Monsoon 2023 -->
 
 ## Deadline: 11:59pm 30 September 2023
 
@@ -17,6 +17,10 @@ nav_order: 2
 xv6 is a simplified operating system developed at MIT. Its main purpose is to explain the main concepts of the operating system by studying an example kernel. xv6 is a re-implementation of Dennis Ritchie's and Ken Thompson's Unix version 6 (v6). xv6 loosely follows the structure and style of v6, but is implemented for a modern RISC-V multiprocessor using ANSI C. In this assignment you will be tweaking the Xv6 operating system as a part of this assignment. Boilerplate code has been provided On Github Classroom. You can see the install instructions [here](https://pdos.csail.mit.edu/6.S081/2020/tools.html). You might find resource [here](https://www.google.com/url?q=https://pdos.csail.mit.edu/6.S081/2020/xv6/book-riscv-rev1.pdf&sa=U&ved=2ahUKEwiDotKvu7n6AhV9R2wGHW2hBfcQFnoECAsQAg&usg=AOvVaw1WkGFTxIC3Ozu77-UFbF8P)  to be helpful.
 
 ---
+
+## GitHub Classroom
+
+Follow [this link](https://classroom.github.com/a/DLipn7os) to accept the assignment. You will then be assigned a private repository on GitHub. This is where you will be working on the mini project. All relevant instructions regarding this project can be found below.
 
 # Specification **1: System Calls [20 marks]**
 

@@ -3,7 +3,7 @@ layout: page
 title: Week 3 - Process Scheduling and Process Communication
 permalink: /lectures/week-3
 parent: Lectures
-nav_order: 2
+nav_order: 3
 ---
 
 ## Scheduling Part 2 and Communication
