@@ -17,4 +17,4 @@ Paging Mechanisms and Policies - [Download](https://karthikv1392.github.io/cs330
 ## Suggested Reading 
 1. Chapter 20 [OSTEP Chapter 20: Paging - Smaller Tables)](https://pages.cs.wisc.edu/~remzi/OSTEP/vm-smalltables.pdf)
 2. Chapter 21 [OSTEP Chapter 21: Beyond Physical Memory: Mechanisms](https://pages.cs.wisc.edu/~remzi/OSTEP/vm-beyondphys.pdf)
-3. Chapter 21 [OSTEP Chapter 22: Beyond Physical Memory: Policies](https://pages.cs.wisc.edu/~remzi/OSTEP/vm-beyondphys-policy.pdf)
+3. Chapter 22 [OSTEP Chapter 22: Beyond Physical Memory: Policies](https://pages.cs.wisc.edu/~remzi/OSTEP/vm-beyondphys-policy.pdf)
