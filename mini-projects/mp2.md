@@ -10,7 +10,7 @@ nav_order: 2
 
 <!-- ## Operating Systems and Networks, Monsoon 2023 -->
 
-## Deadline: 11:59pm 30 September 2023
+## Deadline: 11:59pm 06 October 2023
 
 ---
 
