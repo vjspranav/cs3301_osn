@@ -45,7 +45,7 @@ However, please do mention what tools and how they have been used in the submiss
 | Final Exam      | 30%      |
 | Mid-term Quiz   | 15%       |
 | Quizzes  | 10%       |
-| 4 mini projects  | 30%       |
+| 3 mini projects  | 30%       |
 | Course Project | 10%       |
 | Class activities/bonus | 5%      |
 
