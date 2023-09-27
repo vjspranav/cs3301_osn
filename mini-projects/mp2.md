@@ -152,7 +152,7 @@ You shall be awarded `1 mark per program` listed above _only_ if you check for a
 
 Now, for the rest of the 8 marks - you must make modifications to the programs listed above and add your submissions to `<mini-project2-directory>/networks/partA/rpc`
 
-Here's the task - Implement rock, paper, scissor between two clients (3 marks for the UDP implementation and the other three for using TCP)
+Here's the task - Implement rock, paper, scissor between two clients (4 marks for the UDP implementation and the other four for using TCP)
 - Start server which listens for two clients on two different ports.
 - Start clientA and clientB
 - Users enter their decision in clientA and clientB.
@@ -184,13 +184,13 @@ So, here's what you actually need to do -
 _Seems hack-y? Very_. But, it's OSN not just N and the point of this course is to hopefully make you understand some stuff. 
 
 Functionalities that you have to implement are (10 marks):
-1. **Data Sequencing**: The receiver must divide the data (assume some text) into smaller chunks (of a fixed size). Each chunk is assigned a number which is sent along with the transmission (use structs).
+1. **Data Sequencing**: The sender must divide the data (assume some text) into smaller chunks (of a fixed size or a fixed number of chunks). Each chunk is assigned a number which is sent along with the transmission (use structs).
 2. **Retransmissions**: The client must send an ACK message (with the sequence number) to the server upon receiving a transmission. The server should should retransmit the data if it doesn't receive the ACK within some time. However, the server shouldn't wait for an ACK before sending the next transmission. 
    
    For implementation's sake, send ACK messages randomly to check whether retransmission is working.
 
 To make your life simpler, the rest of the 8 marks is a report - 
-1. How is **your** implementation of data sequencing and retransmission different from traditional TCP? (3 marks)
+1. How is **your** implementation of data sequencing and retransmission different from traditional TCP? (If there are no apparent differences, you may mention that) (3 marks)
 2. How can you extend **your** implementation to account for flow control (https://en.wikipedia.org/wiki/Transmission_Control_Protocol#Flow_control)? You may ignore deadlocks. (5 marks)
 
 Submit your implementation for the server and client in `<mini-project2-directory>/networks/partB`
