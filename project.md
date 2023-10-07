@@ -8,7 +8,7 @@ description: The final course project for CS3.301 is given here.
 
 # Network File System
 
-_Simply put_ -  implement a simple network (or rather, a distributed) file system.
+_Simply put_ -  implement a simple network (or rather, a distributed) file system *from scratch*.
 <br>
 [Image](https://www.researchgate.net/figure/The-overview-of-the-Hadoop-Distributed-File-System-HDFS_fig4_348387085)
 
