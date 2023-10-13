@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Tutorial 6 - Final Course Project
-permalink: /tutorial/tutorial-6
+title: Tutorial 7 - Final Course Project
+permalink: /tutorial/tutorial-7
 parent: Tutorials
-nav_order: 6
+nav_order: 7
 ---
 
-## Tutorial - 6 Slides
+## Tutorial - 7 Slides
 [Click Here](https://docs.google.com/presentation/d/1KSSkOeEzTV24jZzsNXasPdilJ7KIl-tOCf_T2qo81i4/edit?usp=sharing)
