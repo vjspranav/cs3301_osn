@@ -82,7 +82,7 @@ The Storage Servers play a crucial role in the network file system and are equip
 
 Clients initiate communication with the Naming Server (NM) to interact with the NFS. Here's how this interaction unfolds:
 
-- *Directory Mounting*: Clients establish contact with the NM by pinging it with the mounted directory path. When a client requests a resource at a specific location within the NFS (e.g., "~/../mount/dir1/dir2..."), the NM undertakes a comprehensive search across all registered Storage Servers (SSs), encompassing the given directory structures - "dir1/dir1" - to locate the requested resource.
+- *Directory Mounting*: ~Clients establish contact with the NM by pinging it with the mounted directory path. When a client requests a resource at a specific location within the NFS~ (e.g., "~/../mount/dir1/dir2..."), ~the NM undertakes a comprehensive search across all registered Storage Servers (SSs), encompassing the given directory structures - "dir1/dir1" - to locate the requested resource.~ This specification has been removed (you may implement it if you wish to). Here's how you do it now - say, the client passes `READ dir1/dir2/file.txt` to the NM -> the NM looks over all the accessible paths in SS1, SS2, SS3... then sees that the path is present in SSx -> The NM gives relevant information about SSx to the client.
 - *Functionalities* to implement are:
     1. Reading, Writing, and Retrieving Information about Files:
         - Client Request: Clients can initiate file-related operations such as reading, writing, or obtaining information by providing the file's path. The NM, upon receiving the request, takes on the responsibility of locating the correct SS where the file is stored.
@@ -124,13 +124,24 @@ _NOTE_: Marks awarded here are essentially for the requests to the NM. Actual im
 
 #### Some pointers:
 - Use TCP sockets
-- You may use any POSIX C library ([opengroup link](https://pubs.opengroup.org/onlinepubs/9699919799/idx/head.html))
-- As always, decompose the problem and write modular code
-- Start early - we really can't stress this enough
-- Lastly, make necessary assumptions
+- You may use any _POSIX C library_ ([opengroup link](https://pubs.opengroup.org/onlinepubs/9699919799/idx/head.html))
+- As always, decompose the problem and write _modular code_
+- Start _early _- we really can't stress this enough
+- _Cite_ your resources if you take any ideas or code
+- Lastly, make necessary _assumptions_
 
-Here are a few **resources** you could read before starting:
+#### _Additional_ How do I start?
+- Define the calls. For example, define the format of the functionality of the read call for the client as `READ path` and then divide the work amongst yourselves with each team member implementing either the client, the naming server or the storage server code.
+- Identify things that can be decoupled. For example, the specification where an SS can join the NM at any given moment of execution doesn't depend on neither the client or the SS (Assuming you have figured out how SSs attach themselved at the beginning of the execution). One team member can implement this while the other thinks of ways to implement caching (You probably won't get merge conflicts as you'll be changing different parts of the naming server code)
+- Remember figuring things out is just as important as coding the implementation in this assignment. Not everyone needs to be programming at once. One could design the redundancy attribute and start coding it up later.
+
+Here are a few **resources** you could read **before starting**:
 - A few slides on the topic: https://cs.gmu.edu/~setia/cs571-F02/slides/lec9.pdf
 - The Apache Hadoop DFS: https://www.databricks.com/glossary/hadoop-distributed-file-system-hdfs
 - CMU slides on Distrbuted File Systems: https://web2.qatar.cmu.edu/~msakr/15440-f11/lectures/Lecture19_15440_MHH_14Nov_2011.ppt
 - Rutgers university's resources: https://people.cs.rutgers.edu/~pxk/rutgers/lectures/l-dfs.html
+
+**Resources** you could use for the implementation:
+- Handling multiple clients: https://www.geeksforgeeks.org/handling-multiple-clients-on-server-with-multithreading-using-socket-programming-in-c-cpp/
+- Handling multiple clients without multithreading - https://www.geeksforgeeks.org/socket-programming-in-cc-handling-multiple-clients-on-server-without-multi-threading/
+(This section will be updated on specific requests in the doubts document) 
