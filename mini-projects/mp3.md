@@ -3,7 +3,7 @@ layout: page
 title: Mini Project 3
 permalink: /mini-projects/mp3
 parent: Mini Projects
-nav_order: 2
+nav_order: 3
 ---
 
 # Mini Project 3: PBS, CoW (Memory management) and Concurrency.
