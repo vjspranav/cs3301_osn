@@ -1,4 +1,14 @@
-# OSN Mini Project 3: PBS, CoW (Memory management) and Concurrency.
+---
+layout: page
+title: Mini Project 3
+permalink: /mini-projects/mp3
+parent: Mini Projects
+nav_order: 2
+---
+
+# Mini Project 3: PBS, CoW (Memory management) and Concurrency.
+
+<!-- ## Operating Systems and Networks, Monsoon 2023 -->
 
 # xv-6 Revisited:
 
